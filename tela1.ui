@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>359</width>
+    <height>539</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>359</width>
+    <height>539</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Painel De Login </string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>13396365421529659195-128.png</normaloff>13396365421529659195-128.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(65, 65, 65);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>90</y>
+      <width>51</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>6555969181582518276-48.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>220</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-style: outset;
+border-radius: 15px;
+padding:8px 10px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>290</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-style: outset;
+border-radius: 15px;
+padding:8px 10px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>16671574911586787867-32.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>280</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>13248718961594444099-48.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>490</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+	border-radius:13px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:13px;
+	text-decoration:none;</string>
+    </property>
+    <property name="text">
+     <string>Github</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>4422549621553664904-32.png</normaloff>4422549621553664904-32.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 12;	
+display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:13px;
+	text-decoration:none;</string>
+    </property>
+    <property name="text">
+     <string>Instagram</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>3199256211543238897-48.png</normaloff>3199256211543238897-48.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>340</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 17px;
+	color:black;
+	font-family:Arial;
+	font-size:24px;
+
+	text-decoration:none;
+</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>12690011911543238858-48.png</normaloff>12690011911543238858-48.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>450</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;
+font-size: 13px;
+letter-spacing: -0.2px;
+word-spacing: -1px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;</string>
+    </property>
+    <property name="text">
+     <string>Redes Sociais:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>410</y>
+      <width>231</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;
+font-size: 13px;
+letter-spacing: -0.2px;
+word-spacing: -1px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>359</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
